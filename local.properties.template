@@ -1,0 +1,8 @@
+# Copiaza acest fisier in local.properties si completeaza valorile
+# NU adauga local.properties in Git (e deja in .gitignore)
+
+# Calea catre Android SDK (auto-generata de Android Studio)
+sdk.dir=/Users/YOUR_USER/Library/Android/sdk
+
+# API Key de la https://newsapi.org/register (gratuit)
+NEWS_API_KEY=your_newsapi_key_here

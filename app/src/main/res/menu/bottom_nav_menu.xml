@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/newsListFragment"
+        android:icon="@drawable/ic_news"
+        android:title="Stiri" />
+    <item android:id="@+id/bookmarksFragment"
+        android:icon="@drawable/ic_bookmark"
+        android:title="Salvate" />
+    <item android:id="@+id/marketsFragment"
+        android:icon="@drawable/ic_markets"
+        android:title="Piete" />
+    <item android:id="@+id/settingsFragment"
+        android:icon="@drawable/ic_settings"
+        android:title="Setari" />
+</menu>

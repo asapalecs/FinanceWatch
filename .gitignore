@@ -1,0 +1,23 @@
+# Android
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+# Google Services (contine date sensibile)
+google-services.json
+
+# Generated
+app/build/
+
+# Documente si materiale de curs
+*.md
+*.pdf
+*.docx
+

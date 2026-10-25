@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="primaryColor">#1A3C6B</color>
+    <color name="primaryVariant">#2E6DB4</color>
+    <color name="accent">#F5A623</color>
+    <color name="gray">#888888</color>
+
+    <!-- Culori categorii piete -->
+    <color name="nasdaq">#2E6DB4</color>
+    <color name="gold">#F5A623</color>
+    <color name="forex">#27AE60</color>
+    <color name="crypto">#8E44AD</color>
+    <color name="general">#7F8C8D</color>
+
+    <!-- Chart card -->
+    <color name="chart_card_bg">#1E2736</color>
+    <color name="chart_text_primary">#FFFFFF</color>
+    <color name="chart_text_secondary">#99AABB</color>
+    <color name="chart_positive">#4CAF50</color>
+    <color name="chart_negative">#F44336</color>
+</resources>

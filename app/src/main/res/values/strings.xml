@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">FinanceWatch</string>
+    <string name="login_title">Autentificare</string>
+    <string name="register_title">Inregistrare</string>
+    <string name="email_hint">Email</string>
+    <string name="password_hint">Parola</string>
+    <string name="btn_login">Autentificare</string>
+    <string name="btn_register">Inregistreaza-te</string>
+    <string name="no_account">Nu ai cont? Inregistreaza-te</string>
+    <string name="have_account">Ai deja cont? Autentifica-te</string>
+    <string name="news_tab">Stiri</string>
+    <string name="bookmarks_tab">Salvate</string>
+    <string name="markets_tab">Piete</string>
+    <string name="settings_tab">Setari</string>
+    <string name="empty_news">Nu exista stiri pentru aceasta categorie</string>
+    <string name="empty_bookmarks">Nu ai stiri salvate inca</string>
+    <string name="no_internet">Fara conexiune la internet</string>
+    <string name="news_saved">Stire salvata!</string>
+    <string name="news_deleted">Stire stearsa</string>
+    <string name="undo">Anuleaza</string>
+    <string name="read_full_article">Citeste articolul complet</string>
+    <string name="logout">Deconectare</string>
+    <string name="logout_confirm">Esti sigur ca vrei sa te deconectezi?</string>
+    <string name="yes">Da</string>
+    <string name="no">Nu</string>
+</resources>

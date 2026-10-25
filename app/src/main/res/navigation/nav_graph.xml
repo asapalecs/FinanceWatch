@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/newsListFragment">
+
+    <fragment
+        android:id="@+id/newsListFragment"
+        android:name="com.financewatch.traderapp.ui.news.NewsListFragment"
+        android:label="Stiri">
+        <action
+            android:id="@+id/action_newsList_to_newsDetail"
+            app:destination="@id/newsDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/newsDetailFragment"
+        android:name="com.financewatch.traderapp.ui.news.NewsDetailFragment"
+        android:label="Detaliu">
+        <argument android:name="newsId"      app:argType="string" />
+        <argument android:name="title"       app:argType="string" />
+        <argument android:name="url"         app:argType="string" />
+        <argument android:name="imageUrl"    app:argType="string" android:defaultValue="" />
+        <argument android:name="sourceName"  app:argType="string" />
+        <argument android:name="publishedAt" app:argType="string" />
+        <argument android:name="description" app:argType="string" android:defaultValue="" />
+        <argument android:name="category"    app:argType="string" android:defaultValue="general" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/bookmarksFragment"
+        android:name="com.financewatch.traderapp.ui.bookmarks.BookmarksFragment"
+        android:label="Salvate" />
+
+    <fragment
+        android:id="@+id/marketsFragment"
+        android:name="com.financewatch.traderapp.ui.markets.MarketsFragment"
+        android:label="Piete" />
+
+    <fragment
+        android:id="@+id/settingsFragment"
+        android:name="com.financewatch.traderapp.ui.settings.SettingsFragment"
+        android:label="Setari" />
+
+</navigation>
